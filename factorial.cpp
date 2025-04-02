@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int n,f=1,i=1;
+    int n,f=1;
     cout<<"Enter number :";
     cin>>n;
     do{
-        f=f*i;
-        i++;
-    }while(i<=n);
+        f=f*n;
+        n--;
+    }while(n>1);
     cout<<"Factorial of " <<n<< " is "<<f;
 }

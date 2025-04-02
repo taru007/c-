@@ -1,15 +1,15 @@
 #include<iostream>
 using namespace std;
 int main(){
-    for(int r=1;r<=4;r++)
+    for(char row='a' ;row<='d';row++)
     {
-        for(int s=3;s<=r;s--)
+        for(int s=3;s<=row;s--)
         {
             cout<<" ";
         }
-        for(int c=1;c<=r;c++)
+        for(char col='a';col<=row;col++)
         {
-            cout<<c;
+            cout<<col;
         }
         cout<<"\n";
     }

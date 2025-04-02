@@ -26,20 +26,20 @@ int main(){
     {
         cout<<"Supplementary in Maths"<<endl;
     }
-    else if((p>=35 && c<35 && m<35) || (p<35 && c>=35 && m<35) || (p<35 && c<35 && m>=35))
+    else if((p>=35 && c<35 && m<35) || (p<35 && c>=35 && m<35) || (p<35 && c<35 && m>=35) || (p<35 && c<35 && m<35))
     {
         cout<<"Fail";
     }
     else if(per>=60)
     {
-        cout<<"1st Division\n"<<"marks="<<tot<<"\n""per="<<per;
+        cout<<"1st Division\n"<<"marks="<<tot<<"\n"<<"per="<<per;
     }
     else if(per>=50 && per<60)
     {
-        cout<<"2nd Division\n"<<"marks="<<tot<<"\n""per="<<per;
+        cout<<"2nd Division\n"<<"marks="<<tot<<"\n"<<"per="<<per;
     }
     else if (per>=35 && per<=49)
     {
-        cout<<"3rd Division\n"<<"marks="<<tot<<"\n""per="<<per;
+        cout<<"3rd Division\n"<<"marks="<<tot<<"\n"<<"per="<<per;
     }
 }
