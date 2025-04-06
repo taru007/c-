@@ -9,5 +9,5 @@ int main(){
     b=a+b;
     a=b-a;
     b=b-a;
-    cout<<"First Number=\t"<<a<<"Second Number="<<b;
+    cout<<"First Number="<<a<<"\n""Second Number="<<b;
 }
